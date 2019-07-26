@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ufficio Debitori Tutelati</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <style type="text/css">
+
+  .input {
+        margin-bottom: 2px;
+    }
+
+    .control{
+      margin-top: 5px;
+    }
+    .buttonHolder{
+      text-align: center;
+    }
+
+  #debiti{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+    </style>
+
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-large-bg"><span></span></div>
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>Holly</title>
+                                    <defs>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="logo-b">
+                                            <stop stop-color="#A8A3F6" offset="0%"/>
+                                            <stop stop-color="#DAD8FF" offset="100%"/>
+                                        </linearGradient>
+                                        <path d="M27.098 7.53l-9.441 9.44a8.084 8.084 0 0 0-.625.702 8 8 0 0 0 12.173 10.377l9.24-9.24A16.02 16.02 0 0 1 39 23c0 8.837-7.163 16-16 16S7 31.837 7 23 14.163 7 23 7c1.416 0 2.79.184 4.098.53z" id="logo-a"/>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="logo-d">
+                                            <stop stop-color="#DAD8FF" offset="0%"/>
+                                            <stop stop-color="#857DF3" offset="100%"/>
+                                        </linearGradient>
+                                        <path d="M27.098 7.53l-9.441 9.44a8.084 8.084 0 0 0-.625.702 8 8 0 0 0 12.173 10.377l9.24-9.24A16.02 16.02 0 0 1 39 23c0 8.837-7.163 16-16 16S7 31.837 7 23 14.163 7 23 7c1.416 0 2.79.184 4.098.53z" id="logo-c"/>
+                                    </defs>
+                                    <g transform="translate(-7 -7)" fill="none" fill-rule="evenodd">
+                                        <use fill="url(#logo-b)" transform="rotate(45 23 23)" xlink:href="#logo-a"/>
+                                        <use fill="url(#logo-d)" transform="scale(-1 1) rotate(45 0 -32.527)" xlink:href="#logo-c"/>
+                                    </g>
+                                </svg>
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+                        <div class="hero-copy">
+                            <div class="container-sm">
+                                <h1 class="hero-title h2-mobile mt-0 is-revealing">Hai troppi debiti e non sai come fare?</h1>
+                                <p class="hero-paragraph is-revealing">Prenota una consulenza gratuita con i consulenti di Ufficio Debitori Tutelati e scopri la soluzione migliore per te. Ti richiamiamo entro 48 ore.</p>
+                                <div class="hero-form newsletter-form field field-grouped is-revealing">
+                                    <div class="control control-expanded">
+                                      <h3 class=""> Compila il form </h3>
+                                      <form action="https://formspree.io/info@ufficiodebitoritutelati.it" method="POST" />
+                                          <input class="input" type="text" id="fname" name="firstname" placeholder="Nome" required><br>
+                                          <input class="input" type="text" id="lname" name="lastname" placeholder="Cognome" required><br>
+                                          <input class="input" type="email" name="email" placeholder="La tua mail" required><br>
+                                          <input class="input" type="text" name="tel" placeholder="Numero di cellulare" required><br>
+                                          <label class "input" for"debiti" required>Hai debiti con:</label>
+                                          <select id="debiti" name="creditori" required>
+                                                <optgroup label="Creditori">
+                                                  <option value="banche">Debiti con Banche</option>
+                                                  <option value="fisco">Debiti con il fisco</option>
+                                                  <option value="finanziarie">Debiti con finanziarie</option>
+                                                  <option value="altri">Altri debiti</option>
+                                                </optgroup>
+                                          </select>
+                                          <br>
+                                          <input class "input" type="checkbox" name="privacy" value="privacy" required> Autorizzo il trattamento dei miei dati personali ai sensi del Reg. UE 2016/679 per la finalità di richiesta informazioni e/o richiesta di consulenza gratuita.<br>
+                                        <div class="button">
+                                          <button class="button button-primary button-block button-shadow" type="submit" id="button" value="Send">Invia ora</button>
+                                        </div>
+                                      </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-illustration">
+                            <div class="hero-squares hero-squares-1 is-revealing">
+                                <svg width="124" height="64" viewBox="0 0 124 64" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient x1="0%" y1="50%" x2="114.418%" y2="50%" id="squares-1-a">
+                                            <stop stop-color="#6EFACC" offset="0%"/>
+                                            <stop stop-color="#6EFACC" stop-opacity="0" offset="100%"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <path d="M0 0h4v4H0V0zm0 12h4v4H0v-4zm0 12h4v4H0v-4zm0 12h4v4H0v-4zm0 12h4v4H0v-4zm0 12h4v4H0v-4zM12 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM24 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM36 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM48 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM60 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM72 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM84 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zM96 0h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4V0zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4z" fill="url(#squares-1-a)" fill-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div class="hero-squares hero-squares-2 is-revealing">
+                                <svg width="64" height="88" viewBox="0 0 64 88" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient x1="0%" y1="50%" x2="114.418%" y2="50%" id="squares-2-a">
+                                            <stop stop-color="#6EFACC" offset="0%"/>
+                                            <stop stop-color="#6EFACC" stop-opacity="0" offset="100%"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <path d="M80 574h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm12-60h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4zm0 12h4v4h-4v-4z" transform="rotate(90 359 279)" fill="url(#squares-2-a)" fill-rule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div class="hero-ball hero-ball-1 is-revealing">
+
+                            </div>
+                            <div class="hero-ball hero-ball-2 is-revealing">
+
+                            </div>
+                            <div class="hero-illustration-browser is-revealing">
+                                <svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-a">
+                                            <stop stop-color="#F89595" offset="0%"/>
+                                            <stop stop-color="#EF5C5C" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-b">
+                                            <stop stop-color="#FFDFB0" offset="0%"/>
+                                            <stop stop-color="#FFBB78" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-c">
+                                            <stop stop-color="#83E78D" offset="0%"/>
+                                            <stop stop-color="#4BCA55" offset="100%"/>
+                                        </linearGradient>
+                                        <filter x="-30%" y="-42.9%" width="184%" height="220%" filterUnits="objectBoundingBox" id="browser-d">
+                                            <feOffset dx="24" dy="24" in="SourceAlpha" result="shadowOffsetOuter1"/>
+                                            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+                                            <feColorMatrix values="0 0 0 0 0.866666667 0 0 0 0 0.905882353 0 0 0 0 0.937254902 0 0 0 0.56 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+                                            <feMerge>
+                                                <feMergeNode in="shadowMatrixOuter1"/>
+                                                <feMergeNode in="SourceGraphic"/>
+                                            </feMerge>
+                                        </filter>
+                                        <linearGradient x1="19.946%" y1="72.147%" x2="73.772%" y2="18.374%" id="browser-e">
+                                            <stop stop-color="#F8F7FF" offset="0%"/>
+                                            <stop stop-color="#DAD8FF" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-f">
+                                            <stop stop-color="#DAD8FF" offset="0%"/>
+                                            <stop stop-color="#857DF3" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-g">
+                                            <stop stop-color="#DAD8FF" offset="0%"/>
+                                            <stop stop-color="#CDCAFF" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="94.808%" y1="-15.701%" x2="6.924%" y2="82.567%" id="browser-h">
+                                            <stop stop-color="#5DFBD7" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#5DFBD7" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="1.733%" y1="-10.509%" y2="77.375%" id="browser-i">
+                                            <stop stop-color="#6EFACC" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#6EFACC" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="92.458%" y1="5.866%" x2="0%" y2="100%" id="browser-j">
+                                            <stop stop-color="#5DFBD7" offset="0%"/>
+                                            <stop stop-color="#5DFBD7" stop-opacity="0" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="92.458%" y1="5.866%" x2="0%" y2="100%" id="browser-k">
+                                            <stop stop-color="#5DFBD7" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#5DFBD7" stop-opacity=".513" offset="48.724%"/>
+                                            <stop stop-color="#5DFBD7" stop-opacity="0" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="92.458%" y1="5.866%" x2="0%" y2="100%" id="browser-l">
+                                            <stop stop-color="#5DFBD7" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#5DFBD7" stop-opacity=".513" offset="47.494%"/>
+                                            <stop stop-color="#5DFBD7" stop-opacity="0" offset="100%"/>
+                                        </linearGradient>
+                                        <filter x="-23.1%" y="-21.8%" width="192.3%" height="187.3%" filterUnits="objectBoundingBox" id="browser-m">
+                                            <feOffset dx="24" dy="24" in="SourceAlpha" result="shadowOffsetOuter1"/>
+                                            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+                                            <feColorMatrix values="0 0 0 0 0.866666667 0 0 0 0 0.905882353 0 0 0 0 0.937254902 0 0 0 0.56 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+                                            <feMerge>
+                                                <feMergeNode in="shadowMatrixOuter1"/>
+                                                <feMergeNode in="SourceGraphic"/>
+                                            </feMerge>
+                                        </filter>
+                                        <linearGradient x1="100%" y1="50%" x2="-57.904%" y2="50%" id="browser-n">
+                                            <stop stop-color="#DAD8FF" offset="0%"/>
+                                            <stop stop-color="#857DF3" offset="100%"/>
+                                        </linearGradient>
+                                        <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1">
+                                            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/>
+                                            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"/>
+                                            <feColorMatrix values="0 0 0 0 0.10 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.22 0" in="shadowBlurOuter"/>
+                                        </filter>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+
+                                    </g>
+                                </svg>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer text-light">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="https://www.facebook.com/ufficiodebitoritutelati/">
+                                <span class="screen-reader-text">Facebook</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFFFFF"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2019 Ufficio Debitori Tutelati, tutti i diritti riservati</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
